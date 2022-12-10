@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Selectors</title>
+    <style>
+        /* * {
+            background-color: green;
+        } */
+
+        /* .tomato {
+            background-color: tomato;
+        }
+
+        #golden {
+            background-color: goldenrod;
+        } */
+        /* 
+        h1.tomato {
+            background-color: tomato
+        } */
+
+        /* h1.tomato.blue-text {
+            background-color: tomato;
+            color: blue;
+
+        } */
+
+        /* span,
+        li {
+            color: aqua;
+            font-weight: bolder;
+        } */
+        /* span,
+        li.green {
+            color: green;
+        } */
+
+        /* #golden,
+        .green {
+            color: gold;
+        } */
+
+        /* ol li {
+            background-color: brown;
+        }
+
+        div strong {
+            background-color: greenyellow;
+
+        } */
+
+        /* section>strong {
+            background-color: greenyellow;
+        } */
+
+        /* li.golden~li {
+            color: goldenrod;
+        } */
+
+        /* li.golden+li {
+            color: goldenrod;
+        } */
+
+        /* pseudo selectors */
+        /* li:hover {
+            background-color: yellowgreen;
+            cursor: pointer;
+        } */
+        /* input:focus {
+            background-color: aquamarine;
+        } */
+        /* input:required {
+            background-color: aquamarine;
+        } */
+        span::before {
+
+            content: "Read about span ";
+            color: red;
+            font-weight: bold;
+
+        }
+
+        span::after {
+
+            content: "The end ";
+            color: green;
+            font-weight: bold;
+
+        }
+
+        input:required {
+            background-color: aqua;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="tomato blue-text">Selectors in CSS</h1>
+    <h1 class="tomato">Heading 1</h1>
+
+    <div>
+        <section>
+            <strong>This text is bold</strong>
+        </section>
+    </div>
+
+    <span>This is a span</span>
+
+    <ol>
+        <li id="golden" class="golden">Apples</li>
+        <li>Oranges</li>
+        <li class="tomato">Guava</li>
+        <li class="green">Kiwi</li>
+
+
+
+    </ol>
+    <input type="text">
+
+
+</body>
+
+</html>
