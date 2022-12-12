@@ -1,3 +1,61 @@
-h1 {
-    color: blue;
+body,
+html {
+
+    height: 100%;
+    margin: 0;
+    font-size: 16px;
+    color: black;
+    line-height: 1.5rem;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+    position: relative;
+    background-attachment: fixed;
+}
+
+.pimg1 {
+    background-image: url('https://images.unsplash.com/photo-1507525428034-b723cf961d3e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1473&q=80');
+    min-height: 100%;
+}
+
+.pimg2 {
+    background-image: url('https://images.unsplash.com/photo-1548438294-1ad5d5f4f063?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80');
+    min-height: 500px;
+}
+
+.pimg3 {
+    background-image: url('https://images.unsplash.com/photo-1511300276866-a284652b55c3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80');
+    min-height: 500px;
+}
+
+.section {
+    text-align: center;
+    padding: 50px 80px;
+}
+
+.section-light {
+    background-color: whitesmoke;
+}
+
+.section-dark {
+    background-color: black;
+    color: white;
+}
+
+.ptext {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    letter-spacing: 10px;
+    text-transform: uppercase;
+}
+
+.border {
+    background-color: black;
+    color: white;
+    padding: 20px;
 }
