@@ -1,0 +1,168 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: gray;
+}
+
+.section_one_main_container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_one_container {
+    display: flex;
+    padding: 0 5%;
+}
+
+.section_one_left_container {
+    display: flex;
+    margin-left: -40px;
+}
+
+.section_one_right_container {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: right;
+}
+
+.section_one_details_title {
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section_one_details_features {
+    font-size: 18px;
+    margin-top: -5px;
+}
+
+.down_arrow_container {
+    margin-top: 80px;
+}
+
+.down_arrow_container>img {
+    width: 30px;
+    height: fit-content;
+}
+
+.down_arrow_container>img:hover {
+    transform: scale(1.3);
+}
+
+.section_two_container {
+    height: 100vh;
+    padding: 50px 5%;
+}
+
+.section_two_specifications_detail>p {
+    font-size: 40px;
+}
+
+.section_two_specifications_detail>ul>li {
+    font-size: 22px;
+    margin-top: 15px;
+}
+
+.upward_arrow_container {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.upward_arrow_container>img {
+    width: 50px;
+    height: fit-content;
+}
+
+.upward_arrow_container>img:hover {
+    margin-bottom: 10px;
+}
+
+.section_three_container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 5%;
+}
+
+.section_three_details_container {
+    flex: 0.5;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.section_three_details_title {
+    font-size: 35px;
+    font-weight: 700;
+    color: whitesmoke;
+}
+
+.section_three_details_subtitle {
+    font-size: 24px;
+}
+
+.section_three_details_learn_more_container {
+    color: lightskyblue;
+    font-size: 20px;
+    font-weight: 700;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section_three_details_learn_more_title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section_three_details_learn_more_arrow {
+    margin-left: 6px;
+}
+
+.horizonatal_line {
+    margin-top: 250px;
+    color: lightgray;
+    width: 60%;
+}
+
+.section_four_container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10%;
+    margin-bottom: 150px;
+}
+
+.section_four_details_container {
+    color: white;
+}
+
+.section_four_details_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.section_four_details_subtitle {
+    font-size: 18px;
+    color: gray;
+}
+
+.section_four_details_learn_more_container {
+    display: flex;
+    align-items: center;
+    color: lightskyblue;
+}
+
+.section_four_details_learn_more_title:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.section_four_details_learn_more_arrow {
+    margin-left: 5px;
+    font-size: 15px;
+}
