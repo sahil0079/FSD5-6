@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Basics</title>
+    <style>
+        .parent {
+            width: 500px;
+            height: 500px;
+            background-color: gold;
+        }
+
+        .square {
+            width: 50%;
+            height: 50%;
+            background-color: tomato;
+            animation: move 1s cubic-bezier(1, -0.69, 0, 1.35) forwards infinite alternate
+                /* transition: transform 1s cubic-bezier(1, -0.69, 0, 1.35) */
+        }
+
+        .parent:hover .square {
+            animation-play-state: paused;
+            /* background-color: blueviolet; */
+            /* transform: translateY(100%); */
+            /* transform: translateX(100%); */
+
+        }
+
+        @keyframes move {
+            0% {
+                transform: translateX(0);
+            }
+
+            33% {
+                transform: translateY(100%);
+
+            }
+
+            66% {
+                transform: translateX(100%) translateY(100%);
+
+            }
+
+            100% {
+                transform: translateX(100%);
+            }
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <h1>Animation</h1>
+
+    <div class="parent">
+        <div class="square"></div>
+
+    </div>
+
+</body>
+
+</html>

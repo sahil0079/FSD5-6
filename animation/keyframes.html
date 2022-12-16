@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframes</title>
+    <style>
+        .circle {
+            position: relative;
+            width: 400px;
+            height: 400px;
+            background-color: tomato;
+            border-radius: 50%;
+            /* animation: name duration timing-function delay iteration-count direction fill-mode; */
+            animation-name: color-change;
+            animation-duration: 2s;
+            animation-delay: 1s;
+            /* animation-iteration-count: 4; */
+            animation-iteration-count: infinite;
+            /* animation-direction: reverse; */
+            animation-direction: alternate;
+            animation-timing-function: cubic-bezier(1, -0.69, 0, 1.35);
+        }
+
+        .circle:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes color-change {
+
+            /* keyframes are used to change the styles gradually at different point of time */
+            /* from {
+                background-color: tomato;
+            }
+
+            to {
+                background-color: green;
+            } */
+
+            0% {
+                background-color: tomato;
+                left: 0px;
+                top: 0px;
+            }
+
+            25% {
+                background-color: blue;
+                left: 300px;
+                top: 0px;
+            }
+
+            50% {
+                background-color: gray;
+                left: 300px;
+                top: 300px;
+            }
+
+            75% {
+                background-color: gray;
+                left: 0px;
+                top: 300px;
+            }
+
+            100% {
+                background-color: green;
+                left: 0px;
+                top: 0px;
+
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Key frames</h1>
+    <div class="circle"></div>
+</body>
+
+</html>

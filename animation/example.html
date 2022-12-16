@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation</title>
+    <style>
+        * {
+            margin: 0;
+        }
+
+        .parent {
+            background-color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        .child {
+            width: 50px;
+            height: 50px;
+            background: lightgrey;
+            box-shadow: 0px 5px 15px black;
+            border-radius: 20px;
+            animation: expand 3s ease-in-out 1s infinite alternate;
+
+        }
+
+        @keyframes expand {
+
+            0% {
+                width: 50px;
+                height: 50px;
+                background: lightgrey;
+
+            }
+
+            25% {
+                width: 50px;
+                height: 50px;
+                background: rgb(167, 163, 163);
+            }
+
+            50% {
+                width: 50px;
+                height: 250px;
+                background: rgb(167, 163, 163);
+            }
+
+            100% {
+                width: 500px;
+                height: 250px;
+                background: rgb(167, 163, 163);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Animation</h1>
+    <div class="parent">
+        <div class="child"></div>
+    </div>
+</body>
+
+</html>
