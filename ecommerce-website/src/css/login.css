@@ -1,0 +1,29 @@
+div.navbar {
+    padding: 20px 0;
+    background-color: lightgray;
+}
+
+a.navbar-brand {
+    font-size: 24px;
+}
+
+.home-title {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.login-wrapper {
+    width: 600px;
+    margin: 50px auto;
+}
+
+.input-group {
+    margin-bottom: 15px;
+}
+
+.login-wrapper .signup-btn,
+.login-wrapper .login-btn {
+    cursor: pointer;
+    width: 300px;
+    margin: 20px auto;
+}

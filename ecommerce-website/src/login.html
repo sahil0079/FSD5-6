@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce | Login</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/login.css">
+
+</head>
+
+<body>
+    <div id="loginPage">
+        <div class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="row">
+                    <a class="navbar-brand" href="#">Ecommmerce</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="home-title text-center">Welcome to Ecommerce</h2>
+                <div class="login-wrapper" id="loginForm">
+                    <h4 class="text-center">Login</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username" id="loginUsername" />
+                    </div>
+                    <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Password" id="loginPassword" />
+                    </div>
+                    <div class="input-group">
+                        <button class="form-control btn btn-primary login-btn" id="loginBtn">Log in as User</button>
+                    </div>
+                    <div class="signup-btn text-center text-info" id="showSignupBtn">Dont have an Account? Signup</div>
+                    <div class="auth-error-msg text-danger text-center" id="authErrMsg"></div>
+                    <div class="auth-error-msg text-success text-center" id="succErrMsg">
+                    </div>
+                </div>
+                <div class="login-wrapper d-none" id="signupForm">
+                    <h4 class="text-center">Signup</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username" id="signupUsername" />
+                    </div>
+                    <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Password" id="signupPassword" />
+                    </div>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Email" id="signupEmail" />
+                    </div>
+                    <div class="input-group">
+                        <button class="form-control btn btn-primary signup-btn" id="signupBtn">Signup in as
+                            User</button>
+                    </div>
+                    <div class="signup-btn text-center text-info" id="showLoginBtn">Already have an Account? Login</div>
+                    <div class="auth-error-msg text-danger text-center" id="authErrMsg"></div>
+                    <div class="auth-error-msg text-success text-center" id="succErrMsg">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js/login.js"></script>
+</body>
+
+</html>
