@@ -1,0 +1,21 @@
+.home-title {
+    font-size: 40px;
+    margin-top: 100px;
+}
+
+.category-item {
+    border: 1px solid black;
+    margin: 20px;
+    width: 150px;
+    background-color: black;
+}
+
+.category-item a {
+    font-size: 18px;
+    padding: 30px 20px;
+}
+
+.category-title {
+    margin-top: 20px;
+    font-size: 18px;
+}

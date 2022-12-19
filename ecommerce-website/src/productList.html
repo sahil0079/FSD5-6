@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ecommerce | Product List</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/productList.css">
+
+</head>
+
+<body>
+    <div id="productListPage">
+        <div id="header">
+            <div class="container ">
+                <div class="row">
+                    <div class="header-wrapper d-flex justify-content-between">
+                        <div class="logo">
+                            <a class="text-decoration-none" href="index.html">Ecommerce</a>
+                        </div>
+                        <div class="user-actions d-flex">
+                            <a class="text-decoration-none" href="cart.html">Cart</a>
+                            <div class="user-intro" id="userIntro">Hi User</div>
+                            <div class="logout-btn" id="logoutBtn">Logout</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <h2 class="product-list-title text-center">All Products</h2>
+                <div class="product-list-wrapper d-flex">
+                    <div class="product-list-sidebar d-flex flex-column">
+                        <div class="sidebar-title">Search</div>
+                        <div class="sidebar-search form-group">
+                            <input type="text" placeholder="Search by name" class="form-control" id="searchInput">
+                        </div>
+                        <div class="sidebar-title fw-bold">Categories</div>
+                        <div id="categoryList"></div>
+                        <div class="sidebar-title">Filter by Price</div>
+                        <div class="price-filter">
+                            <div class="price-filter-select d-flex justify-content-between">
+                                <div class="form-group">
+                                    <select class="form-select" id="minPrice">
+                                        <option value="1000">1000</option>
+                                        <option value="2000">2000</option>
+                                        <option value="5000">5000</option>
+                                        <option value="10000">10000</option>
+                                        <option value="20000">20000</option>
+                                        <option value="50000">50000</option>
+
+
+                                    </select>
+                                </div>
+                                <div class="form-group">
+                                    <select class="form-select" id="maxPrice">
+                                        <option value="1000">1000</option>
+                                        <option value="2000">2000</option>
+                                        <option value="5000">5000</option>
+                                        <option value="10000">10000</option>
+                                        <option value="20000">20000</option>
+                                        <option selected value="50000">50000</option>
+
+
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="price-filter-title d-flex justify-content-between">
+                                <div>Min Price</div>
+                                <div>Max Price</div>
+
+                            </div>
+                        </div>
+                        <button class="btn btn-primary clear-filter" id="clear">Clear All Filters</button>
+                    </div>
+                    <div class="product-list-box" id="productList">product 1</div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="js/productList.js"></script>
+</body>
+
+</html>

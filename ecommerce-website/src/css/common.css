@@ -8,11 +8,20 @@
     cursor: pointer;
 }
 
-div.navbar {
-    padding: 20px 0;
-    background-color: lightgray
+#header {
+    background-color: lightgray;
+    padding: 24px 0;
 }
 
-a.navbar-brand {
+.header-wrapper a {
+    color: black;
+
+}
+
+.user-actions {
+    line-height: 24px;
+}
+
+.logo a {
     font-size: 24px;
 }
