@@ -1,0 +1,27 @@
+.home_container {
+    padding: 0 9%;
+}
+
+.home_header {
+    text-align: center;
+    margin: 4%;
+    letter-spacing: 0.3rem;
+}
+
+.home_header>h1 {
+    font-weight: 400;
+    font-size: 2rem;
+}
+
+.home_banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5%;
+}
+
+.home_banner_left>p {
+    font-size: 2.5rem;
+    margin-bottom: 25px;
+    font-weight: 800;
+}
