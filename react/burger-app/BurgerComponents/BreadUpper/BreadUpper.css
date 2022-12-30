@@ -1,0 +1,7 @@
+.breadUpper {
+    background-color: orange;
+    height: 150px;
+    width: 100%;
+    border-radius: 100% 100% 12px 12px;
+    border: 2px solid orange;
+}
