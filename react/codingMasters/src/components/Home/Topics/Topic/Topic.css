@@ -1,0 +1,30 @@
+.topic_container {
+    width: 400px;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px #ccc;
+    cursor: pointer;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.topic_container:hover {
+    transform: scale(1.1);
+    transition: transform 0.6s;
+}
+
+
+.topic_container>img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.topic_container>h2 {
+    font-size: 2.5rem;
+    margin: 5%;
+}
+
+.topic_container>p {
+    font-size: 1.2rem;
+    margin: 5%;
+}

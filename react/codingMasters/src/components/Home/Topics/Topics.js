@@ -1,5 +1,6 @@
 import React from "react";
 import './Topics.css'
+import Topic from "./Topic/Topic";
 
 
 export default function Topics() {
@@ -28,7 +29,17 @@ export default function Topics() {
     ]
 
     return (
-        <div>Topics</div>
+        <div className="topics_container">
+
+            {topics.map((item, index) => (
+                <Topic
+                    title={item.title}
+                    image={item.image}
+                    description={item.description}
+                />
+            ))}
+
+        </div>
     )
 }
 
