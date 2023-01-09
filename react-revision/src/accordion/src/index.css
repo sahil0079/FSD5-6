@@ -1,0 +1,54 @@
+main {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: antiquewhite;
+}
+
+.container {
+  width: 90vw;
+  margin: 5rem auto;
+  background-color: white;
+  display: flex;
+  padding: 2rem;
+
+}
+
+.container h3 {
+  font-size: 40px;
+  line-height: 1.2;
+  font-weight: 600;
+}
+
+.question {
+  padding: 1rem 1.5rem;
+  border: 2px solid grey;
+  margin-bottom: 1rem;
+  box-shadow: 0 5px 10px black;
+}
+
+.question p {
+  margin-bottom: 0;
+  margin-top: 0.5rem;
+}
+
+.question header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.btn {
+  background: transparent;
+  border-color: transparent;
+  width: 2rem;
+  height: 2rem;
+  background: lightgray;
+  cursor: pointer;
+}
+
+section {
+  width: 50vw;
+  margin: 0 auto;
+}
