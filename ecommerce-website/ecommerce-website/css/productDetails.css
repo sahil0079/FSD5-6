@@ -1,0 +1,52 @@
+#productDetailsPage .product-details-wrapper {
+	padding-top: 20px;
+}
+
+#productDetailsPage .product-details-wrapper .product-img {
+	flex: 2;
+	padding-right: 50px;
+}
+
+#productDetailsPage .product-details-wrapper .product-img div {
+	box-shadow: 0px 1px 5px #ccc;
+	border-radius: 10px;
+}
+
+#productDetailsPage .product-details-wrapper .product-img div img {
+	max-width: 100%;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box {
+	flex: 3;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-name {
+	font-size: 20px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-price {
+	margin-top: 20px;
+	font-size: 32px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-description {
+	margin-top: 20px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-description .product-description-title {
+	color: #666;
+	margin-bottom: 5px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-description .product-description-data {
+	font-size: 14px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .product-details-action {
+	margin-top: 40px;
+	width: 250px;
+}
+
+#productDetailsPage .product-details-wrapper .product-details-box .add-to-cart-error-msg {
+	margin-top: 20px;
+}

@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<title>Ecommerce Application | Home</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/checkout.css" />
+
+<body>
+	<div id="checkoutPage">
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="header-wrapper d-flex justify-content-between">
+						<div class="logo d-inline-block">
+							<a class="text-decoration-none" href="index.html">Ecommerce</a>
+						</div>
+						<div class="user-actions d-flex flex-row">
+							<a class="text-decoration-none" href="cart.html">Cart</a>
+							<div class="user-intro" id="userIntro">Hi User</div>
+							<div class="logout-btn" id="logoutBtn">Logout</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="cart-title">Checkout</div>
+				<div class="cart-wrapper d-flex flex-row">
+					<div class="order-details d-flex flex-column" id="orderSummary">
+						<div class="order-details-title fw-bold">Order Summary</div>
+						<div class="order-details-product d-flex flex-row">
+							<div class="order-details-product-img d-flex">
+								<img src="https://img.favpng.com/8/17/0/product-design-clip-art-logo-food-png-favpng-TsCQEsJH2LUYN3d5Q6RzrTsqL.jpg">
+							</div>
+							<div class="order-details-product-data d-flex flex-column">
+								<div>Sony Bravia TV</div>
+								<div>₹ 20000</div>
+							</div>
+						</div>
+					</div>
+					<div class="price-details d-flex flex-column">
+						<div class="price-details-box" id="priceDetails"></div>
+						<div id="orderConfirmed" class="d-none">
+							<div class="confirm-payment-success-msg">Order Confirmed</div>
+							<a href="index.html" class="btn btn-info continue-shopping-btn text-decoration-none">
+								Continue Shopping
+							</a>
+						</div>
+						<div class="confirm-payment-btn btn btn-primary" id="confirmPaymentBtn">Confirm Payment</div>
+						<div class="confirm-payment-error-msg text-danger"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/checkout.js"></script>
+</body>
+
+</html>

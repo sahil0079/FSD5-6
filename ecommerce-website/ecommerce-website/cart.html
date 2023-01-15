@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<title>Ecommerce Application | Cart</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/cart.css" />
+
+<body>
+	<div id="cartPage">
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="header-wrapper d-flex justify-content-between">
+						<div class="logo d-inline-block">
+							<a class="text-decoration-none" href="index.html">Ecommerce</a>
+						</div>
+						<div class="user-actions d-flex flex-row">
+							<a class="text-decoration-none" href="cart.html">Cart</a>
+							<div class="user-intro" id="userIntro">Hi User</div>
+							<div class="logout-btn" id="logoutBtn">Logout</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="cart-title">My Cart</div>
+				<div class="cart-wrapper d-flex flex-row">
+					<div class="order-details d-flex flex-column" id="orderDetails">
+					</div>
+					<div class="price-details d-flex flex-column">
+						<div class="price-details-box" id="priceDetails">
+						</div>
+						<a class="continue-shopping-btn btn btn-info text-decoration-none" href="index.html">Continue Shopping</a>
+						<a class="checkout-btn btn btn-primary text-decoration-none" href="checkout.html">Checkout</a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/cart.js"></script>
+</body>
+
+</html>

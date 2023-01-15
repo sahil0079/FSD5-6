@@ -1,0 +1,102 @@
+#checkoutPage .cart-title {
+	padding: 40px 0;
+	font-size: 32px;
+}
+
+#checkoutPage .cart-wrapper .order-details {
+	flex: 36;
+	box-shadow: 0px 1px 5px #aaa;
+	padding: 20px;
+	border-radius: 10px;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-title {
+	font-size: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-product {
+	margin-top: 20px;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-product .order-details-product-img {
+	flex: 1;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-product .order-details-product-img img {
+	max-width: 100%;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-product .order-details-product-data {
+	flex: 2;
+	padding: 0 20px;
+	font-size: 24px;
+}
+
+#checkoutPage .cart-wrapper .order-details .order-details-product .order-details-product-data > div:first-child {
+	font-size: 18px;
+	margin-bottom: 10px;
+}
+
+#checkoutPage .cart-wrapper .price-details {
+	flex: 14;
+	margin-left: 50px;
+}
+
+#checkoutPage .cart-wrapper .price-details .price-details-box {
+	box-shadow: 0px 1px 5px #aaa;
+	border-radius: 10px;
+	padding: 20px;
+}
+
+#checkoutPage .cart-wrapper .price-details .price-details-box .price-details-title {
+	font-size: 20px;
+	padding-bottom: 10px;
+	border-bottom: 1px solid #ccc;
+}
+
+#checkoutPage .cart-wrapper .price-details .price-details-box .price-details-data {
+	padding-top: 20px;
+}
+
+#checkoutPage .cart-wrapper .price-details .price-details-box .price-details-data .price-details-item {
+	padding-bottom: 10px;
+}
+
+#checkoutPage
+	.cart-wrapper
+	.price-details
+	.price-details-box
+	.price-details-data
+	.price-details-item
+	> div:first-child {
+	font-weight: bold;
+}
+#checkoutPage .cart-wrapper .price-details .price-details-box .price-details-data .price-details-item:last-child {
+	padding-bottom: 0;
+	padding-top: 20px;
+	margin-top: 10px;
+	border-top: 1px solid #ccc;
+}
+
+#checkoutPage .cart-wrapper .price-details .confirm-payment-btn {
+	width: 200px;
+	margin: 30px auto 0;
+	text-decoration: none;
+}
+
+#checkoutPage .cart-wrapper .price-details .confirm-payment-error-msg {
+	margin-top: 20px;
+}
+
+#checkoutPage .cart-wrapper .price-details .confirm-payment-success-msg {
+	margin: 20px 0;
+	font-size: 28px;
+	font-weight: bold;
+	color: #2ecc71;
+}
+
+#checkoutPage .cart-wrapper .price-details .continue-shopping-btn {
+	text-decoration: none;
+}

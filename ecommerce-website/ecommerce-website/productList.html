@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+<title>Ecommerce Application | Product List</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/productList.css" />
+
+<body>
+	<div id="productListPage">
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="header-wrapper d-flex justify-content-between">
+						<div class="logo d-inline-block">
+							<a class="text-decoration-none" href="index.html">Ecommerce</a>
+						</div>
+						<div class="user-actions d-flex flex-row">
+							<a class="text-decoration-none" href="cart.html">Cart</a>
+							<div class="user-intro" id="userIntro">Hi User</div>
+							<div class="logout-btn" id="logoutBtn">Logout</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<h2 class="product-list-title text-center">All Products</h2>
+				<div class="product-list-wrapper d-flex flex-row">
+					<div class="product-list-sidebar d-flex flex-column">
+						<div class="sidebar-title">Search</div>
+						<div class="sidebar-search form-group">
+							<input type="text" placeholder="Search by name" class="form-control" id="searchInput">
+						</div>
+						<div class="sidebar-title fw-bold">Categories</div>
+						<div id="categoryList">
+						</div>
+						<div class="sidebar-title">Filter by Price</div>
+						<div class="price-filter">
+							<div class="price-filter-select d-flex flex-row justify-content-between">
+								<div class="form-group">
+									<select class="form-select" id="minPrice">
+										<option value="0">0</option>
+										<option value="1000">1000</option>
+										<option value="2000">2000</option>
+										<option value="5000">5000</option>
+										<option value="10000">10000</option>
+										<option value="20000">20000</option>
+										<option value="50000">50000</option>
+									</select>
+								</div>
+								<div class="form-group">
+									<select class="form-select" id="maxPrice">
+										<option value="1000">1000</option>
+										<option value="2000">2000</option>
+										<option value="5000">5000</option>
+										<option value="10000">10000</option>
+										<option value="20000">20000</option>
+										<option value="50000" >50000</option>
+										<option value="100000" selected>100000</option>
+									</select>
+								</div>
+							</div>
+							<div class="price-filter-title d-flex flex-row justify-content-between">
+								<div>Min Price</div>
+								<div>Max Price</div>
+							</div>
+						</div>
+						<button class="btn btn-primary clear-filter " id="clear"> Clear All Filters</button>
+						</div>
+					<div class="product-list-box" id="productList">
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/productList.js"></script>
+</body>
+
+</html>

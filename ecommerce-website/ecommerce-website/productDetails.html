@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<title>Ecommerce Application | Product Details</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+<link rel="stylesheet" type="text/css" href="css/common.css" />
+<link rel="stylesheet" type="text/css" href="css/productDetails.css" />
+
+<body>
+	<div id="productDetailsPage">
+		<div id="header">
+			<div class="container">
+				<div class="row">
+					<div class="header-wrapper d-flex justify-content-between">
+						<div class="logo d-inline-block">
+							<a class="text-decoration-none" href="index.html">Ecommerce</a>
+						</div>
+						<div class="user-actions d-flex flex-row">
+							<a class="text-decoration-none" href="cart.html">Cart</a>
+							<div class="user-intro" id="userIntro">Hi User</div>
+							<div class="logout-btn" id="logoutBtn">Logout</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="container">
+			<div class="row">
+				<div class="product-details-wrapper d-flex flex-row">
+					<div class="product-img d-flex">
+						<div>
+							<img
+								src="https://img.favpng.com/8/17/0/product-design-clip-art-logo-food-png-favpng-TsCQEsJH2LUYN3d5Q6RzrTsqL.jpg">
+						</div>
+					</div>
+					<div class="product-details-box d-flex flex-column">
+						<div id="productDetails"></div>
+						<div class="product-details-action btn btn-primary text-decoration-none" id="addToCartBtn">Add To Cart</div>
+						<a class="product-details-action btn btn-primary text-decoration-none d-none" id="goToCartBtn" href="cart.html">Go To Cart</a>
+						<div class="add-to-cart-error-msg text-danger"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<script src="js/common.js"></script>
+	<script src="js/productDetails.js"></script>
+</body>
+
+</html>

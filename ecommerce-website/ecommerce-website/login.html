@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Ecommerce Application | Login</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/common.css" />
+    <link rel="stylesheet" type="text/css" href="css/login.css" />
+</head>
+
+<body>
+    <div id="loginPage">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container">
+                <div class="row">
+                    <a class="navbar-brand" href="#">Ecommerce</a>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <h2 class="home-title text-center">Welcome to Ecommerce</h2>
+                <div class="login-wrapper" id="loginForm">
+                    <h4 class="text-center">Login</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username" id="loginUsername">
+                    </div>
+                    <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Password" id="loginPassword">
+                    </div>
+                    <div class="input-group">
+                        <button class="form-control btn btn-primary" id="loginBtn">Log in as User</button>
+                    </div>
+                    <div class="signup-btn text-center text-info" id="showSignupBtn">Dont have an Account ? Signup</div>
+                    <div class="auth-error-msg text-danger text-center"></div>
+                </div>
+                <div class="login-wrapper d-none" id="signupForm">
+                    <h4 class="text-center">Signup</h4>
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Username" id="signupUsername">
+                    </div>
+                    <div class="input-group">
+                        <input type="password" class="form-control" placeholder="Password" id="signupPassword">
+                    </div>
+
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Email" id="signupEmail">
+                    </div>
+                    
+                    <div class="input-group">
+                        <button class="form-control btn btn-primary" id="signupBtn">Signup as User</button>
+                    </div>
+                    <div class="signup-btn text-center text-info" id="showLoginBtn">Already have an Account ? Login</div>
+                    <div class="auth-error-msg text-danger text-center" id="authErrMsg"></div>
+                    <div class="auth-error-msg text-success text-center" id="succErrMsg"></div>
+                    
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="js/login.js"></script>
+</body>
+
+</html>
