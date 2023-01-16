@@ -1,0 +1,19 @@
+.app_header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0 20px;
+}
+
+.button_container {
+  background-color: green;
+  width: 400px;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-weight: bolder;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
