@@ -1,0 +1,19 @@
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.home_rows {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    /* overflow-y: hidden; */
+}
+
+.home_row {
+    display: flex;
+    width: 300px;
+}
