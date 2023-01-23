@@ -1,6 +1,6 @@
 import React from 'react'
-import { useSelector } from 'react-redux'
-import { selectUser } from '../../features/userSlice'
+import { useDispatch, useSelector } from 'react-redux'
+import { logout, selectUser } from '../../features/userSlice'
 import './GetUserDetails.css'
 
 
@@ -8,9 +8,22 @@ import './GetUserDetails.css'
 function GetUserDetails() {
 
     const user = useSelector(selectUser)
-    console.log('user', user)
+    const dispatch = useDispatch()
+
+    const logOut = () => {
+        dispatch(logout())
+    }
+
+    // console.log('user', user)
     return (
         <div>
+            {!user ? <p className='text'>No user found</p> : (
+                <>
+                    <h1>User:{user?.user_name} </h1>
+                    <h2>Email:{user?.user_email}</h2>
+                    <button onClick={logOut}>logout</button>
+                </>
+            )}
 
         </div>
     )
